@@ -1,0 +1,1 @@
+# Foydalanuvchilar jadvali (user_id, name, email, password)

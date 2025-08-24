@@ -1,0 +1,1 @@
+# Kitoblar jadvali (book_id, title, author, price, stock)

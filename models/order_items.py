@@ -1,0 +1,1 @@
+# Buyurtmadagi mahsulotlar (order_item_id, order_id, book_id, quantity)

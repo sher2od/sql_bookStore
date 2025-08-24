@@ -1,0 +1,1 @@
+# Buyurtmalar jadvali (order_id, user_id, total_price, date)
