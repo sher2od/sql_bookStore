@@ -1,1 +1,0 @@
-# Buyurtma yaratish, ko‘rish

@@ -3,10 +3,10 @@ from sqlalchemy import Table,Column,Integer,ForeignKey
 from database import metadata_obj
 
 order_items = Table(
-    "orders_items",
+    "order_items",
     metadata_obj,
-    Column("order_item_id",Integer,primary_key=True),
-    Column("order_id",Integer,ForeignKey("orders.order_id"),nullable=False),
-    Column("book_id",Integer,ForeignKey("books.book_id"),nullable=False),
-    Column("quantity",Integer,nullable=False)
+    Column("id", Integer, primary_key=True),
+    Column("order_id", Integer, ForeignKey("orders.id")),   
+    Column("book_id", Integer, ForeignKey("books.id")),
+    Column("quantity", Integer, nullable=False)
 )
